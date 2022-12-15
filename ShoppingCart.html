@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ShoppingCart.css">
+    <title>ShoppingCart</title>
+</head>
+<body>
+    <div id="container">
+      <div id="divCage">
+        <nav id="topNav">
+            <div id="leftDiv">
+                <img src="file:///Users/macbook/Desktop/logo.svg" alt="Navimage" id="NavImage" height="20px" width="120px">
+                <h6 class="Collections">Collections</h6>
+                <h6 class="Men">Men</h6>
+                <h6 class="Women">Women</h6>
+                <h6 class="About">About</h6>
+                <h6 class="Contact">Contact</h6>
+            </div>
+            <div id="rightDiv">
+                <div class="itemsCartNumber">0</div>
+                <img src="file:///Users/macbook/Desktop/icon-cart.svg" alt="cartimage" id="cartImage" height="25px" width="30px">
+                <img src="file:///Users/macbook/Desktop/image-avatar.png" alt="Userimagery" id="UserProfileImage" height="40px" width="50px">
+            </div>
+        </nav>
+      </div>
+         <div id="colorsOnLine">
+             <div class="collectionColor"></div>
+             <div class="MenColor"></div>
+             <div class="WomenColor"></div>
+             <div class="AboutColor"></div>
+             <div class="ContactColor"></div>
+         </div>
+        <div id="belowBorderLine"></div>
+        <div class="cartshelf">
+            <span class="cart"><b>Cart</b></span>
+            <div class="cartshelfBorderline"></div>
+            <span class="EmptyCart">Your cart is empty. </span>
+            <div class="priceSection">
+                <img src="file:///Users/macbook/Desktop/image-product-1.jpg" alt="SmallUserimagery" class="SmallUserImage SmallUserImageUnhide" height="45px" width="43px" display="hide">
+                <div class="cartLine">Fall Limited Edition Sneakers
+                    <p id="priceCalc"><span class="PriceMultiple">$125.00 x 3</span> <b class="bold">$375.00</b><p>
+                </div>
+                <div class="deletetra"></div>
+            </div>
+            <button class="buttonCart" type="submit">checkout</button>
+        </div>
+        <div id="gridScale">
+            <div id="leftDiv">
+                <img src="file:///Users/macbook/Desktop/image-product-1.jpg" alt="Userimagery" id="UserImage" height="450px" width="435px">
+                <div id="innerLeftDiv">
+                    <img src="file:///Users/macbook/Desktop/image-product-1.jpg" alt="Userimagery" class="downUserImage1" height="90px" width="90px">
+                    <img src="file:///Users/macbook/Desktop/image-product-2-thumbnail.jpg" alt="Userimagery" class="downUserImage2" height="90px" width="90px">
+                    <img src="file:///Users/macbook/Desktop/image-product-3-thumbnail.jpg" alt="Userimagery" class="downUserImage3" height="90px" width="90px">
+                    <img src="file:///Users/macbook/Desktop/image-product-4-thumbnail.jpg" alt="Userimagery" class="downUserImage4" height="90px" width="90px">
+                </div>
+            </div>
+            <div id="rightBodyDiv">
+                <span id="rightDivFirstLine">SNEAKER COMPANY</span>
+                <h1 id="rightDivSecondLine"><b>Fall Limited Edition</b></h1>
+                <h1 id="rightDivThirdLine"><b>Sneakers</b></h1>
+                <p class="SecondParagraph">These low-profile sneakers are your casual wear</p>
+                <p class="SecondParagraph">companion.Featuring a durable rubber outer sole,they'll</p>
+                <p class="SecondParagraph"> withstand everything the weather can offer.</p>
+                <div id="priceTags">
+                    <span id="price"><b>$125.00</b></span>
+                    <span id="discounts">50%</span>
+                </div>
+                <div id="underlinedPrice">$250</div>
+            <div>
+              <div id="itemNumbersDiv">
+                    <img src="file:///Users/macbook/Desktop/icon-minus.svg" alt="minus" class="minus" height="5px" width="10px">
+                    <span class="middleNumber">0</span>
+                    <img src="file:///Users/macbook/Desktop/icon-plus.svg" alt="plus" class="plus" height="10px" width="10px">
+                </div>
+                <button type="Submit" id="button">
+                    <img src="file:///Users/macbook/Desktop/icon-cart.svg" alt="innerCart" class="innerCart" height="15px" width="15px">
+                    <span id="innerWord">Add to cart</span>
+                </button>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="ShopppingCart.js"></script>
+</body>
+</html>
